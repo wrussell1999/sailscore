@@ -7,7 +7,7 @@
  * If a checkbox that was checked is subsequently unchecked the result rows are deleted for that entry.
  */
 
-package com.overs.sailscore;
+package com.overs.sailscore.adapters;
 
 import java.util.ArrayList;
 

@@ -10,7 +10,7 @@
  * The results table can be queried to find everything a competitor competes in. 
  */
 
-package com.overs.sailscore;
+package com.overs.sailscore.adapters;
 
 import android.content.ContentValues;
 import android.content.Context;

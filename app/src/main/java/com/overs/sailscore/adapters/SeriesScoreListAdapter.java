@@ -2,7 +2,7 @@
  * This is a custom list adapter used to bind data to the SeriesScoreListActivity list view.
  */
 
-package com.overs.sailscore;
+package com.overs.sailscore.adapters;
 
 import java.util.ArrayList;
 
