@@ -1,16 +1,17 @@
 package com.overs.sailscore;
 
-import java.util.ArrayList;
-
 import android.app.ListActivity;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.core.app.NavUtils;
+
+import java.util.ArrayList;
 
 public class RaceResultsEntryListActivity extends ListActivity {
     private SailscoreDbAdapter mDbHelper;

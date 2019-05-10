@@ -8,14 +8,15 @@ package com.overs.sailscore;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class EntryEditActivity extends Activity{
+import androidx.core.app.NavUtils;
+
+public class EntryEditActivity extends Activity {
 	private SailscoreDbAdapter mDbHelper;
 	private EditText mHelmText;
 	private EditText mCrewText;
